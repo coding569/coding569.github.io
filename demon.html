@@ -1,0 +1,109 @@
+<!-- dichiarazione tipo di documento -->
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="index.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu" style="display:flex; gap: 50px;">
+                    <li> <a href="#blocco2">Primo link </a> </li>
+                    <li> <a href="">Secondo link </a></li>
+                    <li> <a href="">Terzo link </a></li>
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ ✬  shinobu ✬ ✬ ✬</h1>
+            <p id="desc">  demon slayer  </p>
+                <section id="img-div">
+
+                    <!-- AIUTO!!! non ricordo più come far vedere l'immagine... -->
+
+                    <img  src="https://www.gamesvillage.it/wp-content/uploads/2022/10/demon-slayer-wallpaper-1280x720-wallpaper.jpeg" id="image" alt="Demon Slayer">
+                 
+                    <figcaption id="img-caption">
+demon slayer è l' anime più bello di sempre
+                   
+
+
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info"  >
+
+                <article>
+                    <h2>
+                    ✬ ✬  demon slayer ✬ ✬
+                    </h2>
+                    <p>
+                         demon slayer parla di dei ammazzademoni che uccidono i demoni con le loro katane
+                    </p>
+                    <div>
+                    <img id="rejected" alt="Altra immagine rotta!!!!" src="./img/shinobu.jpg">
+                    <figcaption id="alone"> shinobu kocho è la mia preferita </figcaption>
+                    </div>
+
+                </article>
+                <h2>
+                ✬ ✬   ✬ ✬
+                </h2>
+                <p>
+                    shinobu è la sorella media
+                </p>
+
+                <!-- LISTA  -->
+                <ul>
+                    <li>shinobu sister butterfly</li>
+                    <li> pilastro degli insetti</li>
+                    <li>hashira</li>
+                </ul>
+
+                <p>butterfly</p>
+                <div>https://i.pinimg.com/736x/7f/e7/62/7fe7625ff845b46d8781d7a6962ba612.jpg
+                <img id="blocco2" src="" alt="A picture of Team 7 in the chunin exams">
+                </div>
+                <h2>Altro blocco</h2>
+
+                <p>Se vuoi puoi scrivere altro testo
+                </p>
+                <div>
+                <img id="acceptance" src="" alt="non funziona">
+                </div>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3> ✬ Se vuoi puoi inserire uno o più link:
+            ✬ <a id="tribute-link" href="link-pagina" target="_blank">Testo Link ✬</a>
+        </h3>
+        </footer>
+        <script src="js/gsap.min.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+    </html>

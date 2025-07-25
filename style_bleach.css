@@ -1,0 +1,109 @@
+html {
+  font-family: "Permanent marker";
+  font-size: 40px;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #cccccc;
+    overflow-x: hidden;
+  }
+
+#title {
+  text-align: center;
+}
+
+#image {
+  width:730px;
+  height:auto;
+}
+
+
+#menu ul, #menu li {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(80px, 5vw, 15px);
+  border: 5px solid;
+  background-color: pink;
+  border-radius: 50px 30px 15px 5px;
+}
+
+#desc {
+  border: 3px solid;
+  text-align: center;
+  background-color: pink;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+#img-caption {
+  text-align: center;
+  background-color: pink;
+}
+
+h2 {
+  text-align: center;
+  text-justify: auto;
+  background-color: pink;
+}
+
+p {
+  background-color: pink;
+  text-align: center;
+}
+
+ul {
+  background-color: pink;
+  padding-left: 2rem;
+}
+
+
+#rejected {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+figcaption {
+  text-align: center;
+  background: pink;
+}
+
+#Team7 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+#acceptance {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+h3 {
+  text-align: center;
+  background-color: pink;
+}
+
+.red {
+  color: red;
+}
