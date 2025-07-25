@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+            <!-- link per google fonts:: https://fonts.google.com/ -->
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="./style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu">
+                    <!-- LINK ALLA PAGINA -->
+                    <li> <a href="#html">HTML</a> </li>
+                    <li> <a href="./naruto.html">Scopri altro</a></li>
+                    <li> <a href="https://google.com">Cerca su Google </a></li>
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ ✬ W il web!! ✬ ✬ ✬</h1>
+            <p id="desc">Il web è fichissimo!!! Scrivo qua e lo vedo a schermo, sembra una magia...</p>
+                <section id="img-div">
+
+                    <!-- L'attributo src è dove metto il link all'immagine -->
+
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgGyaZxWO_9A1WQCWAU4nj7jOlx_TaQ94VQ&s" id="image" alt="Illustrazione di computer e varie devi">
+                    <figcaption id="img-caption">
+                    Forse non tutti sanno che Youtube esiste solo da 20 anni.
+                    </figcaption>
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info">
+
+                <article>
+                    <h2 id="html">
+                    ✬ ✬ HTML ✬ ✬
+                    </h2>
+                    <p>
+                      L'html è un linguaggio markup con cui viene definita la struttura base di una pagina web.
+                    </p>
+                    <div>
+                    <img id="rejected" alt="Altra immagine rotta!!!!" src="./img/logo_html.png">
+                    <figcaption id="alone">Html 5 è l'ultima versione di questo famoso linguaggio.</figcaption>
+                    </div>
+
+                </article>
+                <h2>
+                ✬ ✬ CSS ✬ ✬
+                </h2>
+                <p>
+                   Il CSS è un altro linguaggio web che serve per personalizzare l'aspetto degli elementi HTML.
+                   <br>
+                   Ecco le principali caratteristiche:
+                </p>
+                <div style="margin: 0 auto; display: flex; justify-content: center;">
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/6dfUm55SZs0?si=pqPN0TLQP-HCf1_9&amp;controls=0&amp;start=60" title="DrangonBall Sigla" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <!-- LISTA  -->
+
+                </div>
+                <div style=" display: flex; justify-content: center;">
+                    <ul >
+                        <li class="from-right">L'ultima regola di solito vince sulle altre</li>
+                        <li class="from-left">Alcuni selettori vincono anche se sono in cima</li>
+                        <li class="from-left">Esistono variabili per fare modifiche più rapidamente </li>
+                        <li class="from-left">Le classi sono importanti!!!
+                        </li>
+                    </ul>
+                </div>
+                <p>Per imparare bene il css ci sono tanti siti, ma uno dei migliori è sicuramente 
+                   <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3school</a>
+                </p>
+                <div>
+                <img id="blocco2" src="" alt="">
+                </div>
+                <h2>Altro blocco</h2>
+
+                <p>altro testo
+                </p>
+                <div>
+                <img id="acceptance" src="https://media.istockphoto.com/id/1328689113/it/foto/cielo-blu-estivo-e-sfondo-bianco-nuvola-bianca-bella-nuvolosit%C3%A0-limpida-alla-luce-del-sole.jpg?s=612x612&w=0&k=20&c=rfnK6cS6ZiNXQQ_IJ7kxnRnDibiYo7tUC2HR8L43Xc8=" alt="Cielo Limpido">
+                </div>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3> ✬ Se vuoi puoi inserire uno o più link:
+            ✬ <a id="tribute-link" href="link-pagina" target="_blank">Testo Link ✬</a>
+        </h3>
+        </footer>
+    </body>
+        <script src="js/gsap.min.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </html>

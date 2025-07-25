@@ -1,0 +1,140 @@
+html {
+  font-family: "Permanent marker";
+  font-size: 40px;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+.pippo {
+   font-family: "Mea Culpa", cursive;
+}
+
+.small {
+  font-size: 8px;
+}
+
+body {
+    background-color: #cccccc;
+    overflow-x: hidden;
+  }
+
+#title {
+  text-align: center;
+}
+
+#image {
+  width:730px;
+  height:auto;
+}
+
+
+#menu ul, #menu li {
+  list-style-type: none;
+}
+
+.red {
+  color:red;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(80px, 5vw, 15px);
+  border: 5px solid;
+  background-color: pink;
+  border-radius: 50px 50px  0 0;
+}
+
+#desc {
+  border: 3px solid;
+  text-align: center;
+  background-color: pink;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+#img-caption {
+  text-align: center;
+  background-color: pink;
+}
+
+h2 {
+  text-align: center;
+  text-justify: auto;
+  background-color: pink;
+}
+
+p {
+  background-color: pink;
+  text-align: center;
+}
+
+ul {
+  background-color: pink;
+
+}
+
+
+#rejected {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+figcaption {
+  text-align: center;
+  background: pink;
+}
+
+#Team7 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+#acceptance {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+h3 {
+  text-align: center;
+  background-color: pink;
+}
+
+#menu {
+  display:flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #menu li {
+    font-size: 18px;
+  }
+
+  #menu {
+     gap: 20px;
+  }
+}
+
+#menu li a {
+  color: rgb(19, 19, 75);
+  text-decoration: none;
+}
