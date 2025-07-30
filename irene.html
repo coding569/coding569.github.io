@@ -1,0 +1,119 @@
+<!-- dichiarazione tipo di documento -->
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="./irene_style2.css">
+            <link rel="stylesheet" href="./globa_style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu" style="display:flex; gap: 50px;">
+                    <!-- LINK ALLA PAGINA -->
+                     <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="#html">apartments</a> </li>
+                    <li> <a href="#sewers">sewers</a></li>
+                    <li> <a href="#sto">Stoccolma </a></li>
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ ✬ Cry of fear!! ✬ ✬ ✬</h1>
+            <p id="desc">Cry of fear è un videogioco horror nato nel 2013 e sviluppato dallo svedese Andreas Ronnberg alla sola età di 21 anni!</p>
+                <section id="img-div">
+
+                    <!-- L'attributo src è dove metto il link all'immagine -->
+
+                    <img  src="./img/cry of fear menu.jpg" id="image" alt="Illustrazione di computer e varie devi">
+                    <figcaption id="img-caption">
+                    Il videogioco è ambientato a Stoccolma, e con la sua storia toccante e le sue ambientazioni mozzafiato ha conquistato il popolo del web
+                    </figcaption>
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info">
+
+                <article>
+                    <h2 id="html">
+                    The apartments
+                    </h2>
+                    <p>
+                     Gli appartamenti sono la prima ambientazione del videogioco, oltre ad essere la dimora del nostro protagonista Simon!
+                    </p>
+                    <div>
+                    <img id="rejected" alt="Altra immagine rotta!!!!" src="./img/apartments.webp">
+                    <figcaption id="alone">Qui si possono incontrare i primi nemici del gioco, ad esempio gli Slower o i Faster
+
+                    </figcaption>
+                    </div>
+
+                </article>
+                <h2 id="sewers">
+                The sewers
+                </h2>
+                <p>
+                   Le fogne sono un'ambientazione ricorrente nel gioco, e si incontrano per la prima volta dopo la prima boss fight con il Sawrunner
+                
+                </p>
+
+                <!-- LISTA  -->
+                <ul>
+                    <li></li>
+                    <li>In questa ambientazione vengono introdotti per la prima volta i Sewmo, dei nemici ricorrenti nel gioco.</li>
+                    <li>Nelle fogne avviene il primo incontro con il dottor Purnell, lo psicologo di Simon</li>
+                    <li class="red">E ricorda... Attento alla seconda boss fight !!!
+                    </li>
+                </ul>
+
+                <p>Per imparare i vari nemici di cry of fear puoi visitare il sito: 
+                   <a href="https://cry-of-fear.fandom.com/wiki/Category:Enemies" target="_blank">Cry of fear enemies</a>
+                </p>
+                <div>
+                <img id="blocco2" src="" alt="">
+                </div>
+                <h2 id="sto">Stoccolma</h2>
+
+                <p>Durante il gioco ci sono altre ambientazioni presenti e cruciali per la storia del gioco tra cui:
+                     <li>Gli appartamenti in cui si incontra per la prima volta Sophie, la ragazza amata da Simon, e in cui è presente la boss fight con carcass</li>
+                    <li>I due parchi e la scuola</li>
+                    <li>La stazione dei treni</li>
+                     <li>L'ospedale psichiatrico abbandonato in cui c'è il primo ma anche l'ultimo confronto con il dottor Purnell</li>                </p>
+                <div>
+                <img id="acceptance" src="./img/simon.jpg" alt="">
+                </div>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3> ✬ Se vuoi scoprire di più riguardo al gioco:
+            ✬ <a id="tribute-link" href="https://cry-of-fear.fandom.com/wiki/Cry_of_Fear_Wiki" target="_blank">Wiki cry of fear</a>
+        </h3>
+        </footer>
+    </body>
+    <script src="js/gsap.min.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </html>

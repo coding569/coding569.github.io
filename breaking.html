@@ -1,0 +1,113 @@
+<!-- dichiarazione tipo di documento -->
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+            
+            <link rel="stylesheet" href="./breaking_style.css">
+            <link rel="stylesheet" href="./globa_style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu" style="display:flex; gap: 50px;">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="#blocco1">trama </a> </li>
+                    <li> <a href="#blocco2"> episodi </a></li>
+                    <li> <a href="#blocco3"> cast </a></li>
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ ✬ Breaking Bad ✬ ✬ ✬</h1>
+            <p id="desc">una serie tv da scoprire</p>
+                <section id="img-div">
+
+                    <!-- immagine -->
+
+                    <img  src="https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABXBg5ew9sDhmGW93rZcxuMjeUSFh-pWE3kagKRZ3wII9tFLsWwHquDh-B9DlNzmEGzMVlAtiSopgA_K69RUl8yzGaG10fuKqEDuY.jpg?r=776" id="image" alt="immagine dei 2 personaggi principlai ">
+                    <figcaption id="img-caption">
+                    le 2 leggende
+                    </figcaption>
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info">
+ 
+                <article>
+                    <h2 class="from-right" id="blocco1">
+                    ✬ ✬ di cosa parla ✬ ✬
+                    </h2>
+                    <p>
+                        tanto tempo fa c'era un semplice professore di chimica... poi tutto cambiò. 
+                    </p>
+                    <div>
+                    <img id="img-trasf" alt="la trasformazione del protagonista" src="./immagini/walter white.jpg">
+                    <figcaption id="alone"> ebbene sì... ora è pelato (e ricco) </figcaption>
+                    </div>
+
+                </article>
+                <h2 id="blocco2">
+                ✬ ✬ da quante stagioni è composta ✬ ✬
+                </h2>
+                <p>
+                    ci sono 5 stagioni composte da 12/13 episodi l'una, dalla durata di 40 min circa
+                </p>
+
+                <!-- LISTA  -->
+                <ul>
+                    <li>S1 ep:12 </li>
+                    <li>S2 ep:13</li>
+                    <li>S3 ep:13</li>
+                    <li>S4 ep:15</li>
+                    <li class="red">S5 ep:14 </li>
+                </ul>
+
+                <p>son tante ma ne vale la pena</p>
+                <div>
+                <img id="stagioni-img" src="https://i.ebayimg.com/00/s/MTQ4NFgxNjAw/z/QOoAAOSw-1ZcXeRL/$_57.JPG?set_id=8800005007" alt="me ne son scordato">
+                </div>
+                <h2 class="from-left"  id="blocco3">Il Cast</h2>
+
+                <p> <a href="https://it.wikipedia.org/wiki/Breaking_Bad#Breaking_Bad:_Original_Minisodes">guarda i personaggi</a>
+                </p>
+                <div>
+                <img id="acceptance" src="https://mr.comingsoon.it/imgdb/SerieTV/news/1/79631_ppl.jpg" alt="er cast">
+                </div>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3> ✬ Se vuoi puoi inserire uno o più link:
+            ✬ <a id="tribute-link" href="https://it.wikipedia.org/wiki/Breaking_Bad" target="_blank">Testo Link ✬</a>
+        </h3>
+
+        </footer>
+<script src="js/gsap.min.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+    </html>

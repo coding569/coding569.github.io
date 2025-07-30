@@ -1,0 +1,110 @@
+<!-- dichiarazione tipo di documento -->
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="./fantasy_style.css">
+            <link rel="stylesheet" href="./globa_style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        </head>
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu" style="display:flex; gap: 50px;">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="#blocco1">Primo Link </a> </li>
+                    <li> <a href="#blocco2">Secondo Link </a></li>
+                    <li> <a href="#blocco3">Terzo Link </a> </li>
+                    <li> <a href="#blocco4">Quarto Link </a></li>                
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ COSE FANTASIOSE ✬ ✬</h1>
+            <p id="desc">Le cose più fantasiose</p>
+                <section id="img-div">
+
+                    <!-- AIUTO!!! non ricordo più come far vedere l'immagine... -->
+
+                    <img class="from-blocco1" src="immagini/immagine1.avif" id="blocco1" alt="Castello tra le nuvole">
+                    <figcaption id="desc">
+                    Castello Fantasy
+                    </figcaption>
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info">
+
+                <article>
+                    <h2 class="from-right">
+                    ✬ ✬ Approfondimento 1 ✬ ✬
+                    </h2>
+                    <p id="desc">
+                        Altre cose fantasiose
+                    </p>
+                    <div>
+                    <img class="from-blocco2" id="blocco2" alt="Lago con cielo stellato" src="immagini/immagine2.avif">
+                    <figcaption id="desc"> Cielo stellato </figcaption>
+                    </div>
+
+                </article>
+                <h2>
+                ✬ ✬ Altro approfondimento ✬ ✬
+                </h2>
+                <p id="desc">
+                    Curiosità
+                </p>
+
+                <!-- LISTA  -->
+                <ul>
+                    <li class="from-left">Sono cose inventate</li>
+                    <li class="from-left">Sono fantasiose</li>
+                    <li class="from-left">Non esistono</li>
+                </ul>
+
+                <p id="desc">Altre cose fantasiose</p>
+                <div>
+                <img class="from-blocco3" id="blocco3" src="immagini/immagine3.jpg" alt="Pilastro di vetro">
+                </div>
+                <figcaption id="desc"> Cosa tantasioso </figcaption>
+                <h2>Altro fantasie</h2>
+
+                <p id="desc">Sempre cose fantasiose
+                </p>
+                <div>
+                <img class="from-blocco4" id="blocco4" src="immagini/immagine4.jpg" alt="Fiume immaginario">
+                </div>
+                <figcaption id="desc"> Giungla inventata </figcaption>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3 id="desc"> ✬ LINK FANTASIOSO: ✬
+             <a id="tribute-link" href="link-pagina" target="_blank"> LINK INESISTENTE </a>
+        </h3>
+        </footer>
+    </body>
+        <script src="js/gsap.min.js"></script> 
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/script.js"></script>   
+    </html>

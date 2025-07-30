@@ -1,12 +1,19 @@
+:root {
+  --font-family: "Raleway";
+  --background-color: #000;
+  --light: grey;
+  --accent: white;
+}
+
 html {
-  font-family: "Amarante";
+  font-family: "raleway";
   font-size: 40px;
   text-align: justify;
   scroll-behavior: smooth;
 }
 
 body {
-    background-color: #cccccc;
+    background-color: var(--background-color);
     overflow-x: hidden;
   }
 
@@ -19,26 +26,48 @@ body {
   height:auto;
 }
 
+#menu {
+  display: flex;
+  justify-content: center;
+}
 
 #menu ul, #menu li {
   list-style-type: none;
 }
 
-
-
 h1 {
   text-align: center;
   font-size: clamp(80px, 5vw, 15px);
   border: 5px solid;
-  background-color: rgb(248, 128, 0);
-  border-radius: 50px;
+  background-color: var(--light)
+}
+
+#nirvana1 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
 }
 
 #desc {
-  border: 3px solid;
+  margin: 0 auto;
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: var(--light);
+  border-radius: 10px;
+  width: 70%;
 }
+
+#logo {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
 #image {
   max-width: 100%;
   display: block;
@@ -49,30 +78,27 @@ h1 {
 }
 #img-caption {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  color: white;
 }
 
 h2 {
   text-align: center;
   text-justify: auto;
-  background-color: rgb(248, 128, 0);
-  border-radius: 30px;
-  border: 5px solid;
+  color: white;
 }
 
 p {
-  background-color: rgb(248, 128, 0);
   text-align: center;
-  border: 3px solid;
+  color: white;
 }
 
 ul {
-  background-color: rgb(248, 128, 0);
   padding-left: 2rem;
 }
 
-ol {
-  text-align: center;
+li a {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 #rejected {
@@ -86,7 +112,7 @@ ol {
 
 figcaption {
   text-align: center;
-  background: rgb(248, 128, 0);
+  color: white;
 }
 
 #Team7 {
@@ -109,10 +135,5 @@ figcaption {
 
 h3 {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  color: white;
 }
-
-.red {
-  color: red;
-}
-

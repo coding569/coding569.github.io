@@ -1,0 +1,131 @@
+html {
+  font-family: "Permanent marker";
+  font-size: 40px;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #cccccc;
+    overflow-x: hidden;
+  }
+
+#blocco1{
+  font-size: clamp(10px, 5vw, 15px);
+  width: 350px;
+  border:#10042890 3px;  
+  border-style:solid;
+}
+#blocco2{
+  font-size: clamp(10px, 5vw, 15px);
+  width: 350px; 
+  border:#600b05b2 3px;
+  border-style:solid;
+}
+#blocco3{
+  font-size: clamp(10px, 5vw, 15px);
+  width: 350px;
+  border:#372168f7 3px;  
+  border-style:solid;
+}
+#blocco4{
+  font-size: clamp(10px, 5vw, 15px);  
+  width: 350px;
+  border:#024320df 3px;  
+  border-style:solid;
+}
+#title {
+  text-align: center;
+}
+
+#image {
+  width:730px;
+  height:auto;
+}
+#menu ul, #menu li {
+  list-style-type: none;
+}
+
+#menu{
+  border: 3px solid;
+  text-align: left;
+  background-color: rgba(54, 195, 11, 0.759);
+}
+h1 {
+  text-align: center;
+  font-size: clamp(65px, 5vw, 15px);
+  border: 5px solid;
+  background-color:  rgba(12, 120, 187, 0.573);
+  border-start-start-radius: 300px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+#desc{
+  border: 3px solid;
+  text-align: center;
+  background-color: rgba(12, 120, 187, 0.573);
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+h2 {
+  text-align: center;
+  text-justify: auto;
+  background-color: rgba(234, 82, 55, 0.773);
+  border:5px solid;
+  border-color: rgba(135, 17, 17, 0.834);
+  border-top-color: rgba(175, 19, 19, 0.773);
+  border-bottom-color:rgba(175, 19, 19, 0.773);
+  border-bottom-style:dashed;
+  border-top-style: dashed;
+  border-start-start-radius: 300px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+ul {
+  background-color:rgba(234, 82, 55, 0.773);
+  padding-left: 2rem;
+}
+
+
+#rejected {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+figcaption {
+  text-align: center;
+  background:rgba(234, 82, 55, 0.773);
+}
+
+#Team7 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}
+
+#acceptance {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-color: #000000;
+  border-style: solid;
+}

@@ -1,0 +1,105 @@
+<!-- dichiarazione tipo di documento -->
+<!DOCTYPE html>
+
+    <!-- apertura tag HTML  con attributo lang [per lingua: it per italiano, en inglese...]-->
+
+    <html lang="it">
+
+    <!-- TAG head: metainformazioni + link al css -->
+        <head>
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="dragon_style.css">
+            <link rel="stylesheet" href="./globa_style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+    <!-- TAG BODY: CONTENUTO VISIBILE!!! -->
+
+    <body>
+
+         <!-- I contenuti nel tag BODY, di solito si dividono tra 
+          tre tag principali: 
+                    - header [parte iniziale, dove di solito c'è un menù] 
+                    - main [parte centrale, contenuto principale]
+                    - footer [parte in fondo]-->
+
+        <!-- HEADER TAG -->
+        <header>
+            <!-- esempio menu -->
+            <nav>
+                <ul id="menu" style="display:flex; gap: 50px;">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="#blocco2">Primo link </a> </li>
+                    <li> <a href="">Secondo link </a></li>
+                </ul>
+            </nav>
+            <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
+            <h1 id="title">✬ ✬ ✬ News of the day ✬ ✬ ✬</h1>
+            <p id="desc">Dragon Ball</p>
+                <section id="img-div">
+
+                    <!-- AIUTO!!! non ricordo più come far vedere l'immagine... -->
+
+                    <img  src="./Immagini/Dragon_Ball_Super.png" id="image" alt="Immagine rotta!!!! aiutami     ad aggiustarla">
+
+                    <figcaption id="img-caption">
+                    Un cartone Anime da far vedere a tutti
+                    </figcaption>
+                </section>
+        </header>
+        <main>
+
+            <section id="tribute-info">
+
+                <article>
+                    <h2>
+                    ✬ ✬ Primo capitolo ✬ ✬
+                    </h2>
+                    <p>
+                        Questo Anime parla di personaggi che si trasformano e che provengono da un'altro pianeta ci sono buoni e cattivi da pianeti diversi e mostri super cattivi 
+                    </p>
+                    <div>
+                    <img id="rejected" alt="Altra immagine rotta!!!!" src="./Immagini/Dragon Ball.jpg">
+                    <figcaption id="alone"> AGF </figcaption>
+                    </div>
+
+                </article>
+                <h2>
+                ✬ ✬ Nuovo capitolo ✬ ✬
+                </h2>
+                <p>
+                    Goku e Vegeta sono due Super sayan e insieme ai loro compagni e amici devono salvare il pianeta terra altri pianeti e gli abitanti della terra
+                </p>
+
+                <!-- LISTA  -->
+                <ul>
+                    <li>Dragon Ball è un cartone Anime che fa divertire </li>
+                    <li>Dragon Ball è un cartone pieno di finzione</li>
+                    <li>Dragon Ball è un cartone un pò violento</li>
+                </ul>
+
+                <p>Dragon Ball Z</p>
+                <div>
+                <img id="blocco2" src="./Immagini/Dragon Ball Z.jpg" alt="./Dragon_Ball_Super.png">
+                </div>
+                <h2>Dragon Ball Z Capitolo 1</h2>
+
+                <p>Dragon Ball Z
+                </p>
+                <div>
+                <img id="acceptance" src="./Immagini/Dragon-Ball-Z 2.webp" alt="non funziona">
+                </div>
+            </section>
+        </main>
+        <!-- ecco il footer -->
+        <footer>
+
+        <h3> ✬ Se vuoi puoi inserire uno o più link:
+            ✬ <a id="tribute-link" href="link-pagina" target="_blank">Testo Link ✬</a>
+        </h3>
+        </footer>
+    </body>
+
+    </html>

@@ -12,6 +12,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Anton&family=Faculty+Glyphic&family=Limelight&display=swap" rel="stylesheet">
 
             <link rel="stylesheet" href="./style_bleach.css">
+            <link rel="stylesheet" href="./globa_style.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
 
@@ -30,19 +31,20 @@
             <!-- esempio menu -->
             <nav>
                 <ul id="menu" style="display:flex; gap: 50px;">
-                    <li> <a href="#blocco2">Primo link </a> </li>
-                    <li> <a href="#menu">Secondo link </a></li>
-                    <li> <a href="">Terzo link </a></li>
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="#blocco1">Prima parte </a> </li>
+                    <li> <a href="#blocco2">Seconda parte </a></li>
+                    <li> <a href="#blocco3">Terza parte </a></li>
                 </ul>
             </nav>
             <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
-            <h1 id="title" class="from-left">✬ ✬ ✬ Bleach ✬ ✬ ✬</h1>
-            <p id="desc">Bleach</p>
+            <h1 id="title">✬ ✬ ✬ Bleach ✬ ✬ ✬</h1>
+            <p id="desc">episodi 300+</p>
                 <section id="img-div">
 
                     <!-- AIUTO!!! non ricordo più come far vedere l'immagine... -->
 
-                    <img  src="./imegies/gg.jpg" id="image" alt="Immagine rotta!!!! aiutami     ad aggiustarla">
+                    <img  class="from-left" src="./imegies/gg.jpg" id="image" alt="immagine del protaggonista">
                     <figcaption id="img-caption">
                     
                     </figcaption>
@@ -53,51 +55,57 @@
             <section id="tribute-info">
 
                 <article>
-                    <h2>
-                    ✬ ✬ bleach soul society arc ✬ ✬
+                    <h2 id="blocco1">
+                     bleach: <br> avventura, azione, soprannaturale 
                     </h2>
                     <p>
                         
                     </p>
                     <div>
-                    <img src="./imegies/images.jpg" alt="immagine presa da bleach">
-                    <figcaption id="alone"> Con relativa didascalia </figcaption>
+                    <img class="from-left" src="./imegies/images.jpg" alt="immagine presa da bleach">
+                    <figcaption id="alone">  </figcaption>
                     </div>
 
                 </article>
-                <h2>
-                ✬ ✬ /// ✬ ✬
+                <h2 id="blocco2">
+                ✬ altro ✬
                 </h2>
                 <p>
-                    favorite character
+                    personaggi preferiti
                 </p>
 
                 <!-- LISTA  -->
                 <ol id="menu">
-                    <li class="red">kenpachi</li>
+                    <li class="red"> kenpachi</li>
                     <li>aizen</li>
-                    <li>zongezu</li>
+                    <li>zangetsu</li>
                     
                 </ol>
 
                 <p>team7</p>
                 <div>
-                <img id="blocco2" src="./imegies/team7.jpg" alt="A picture of Team 7 in the chunin exams">
+                <img class="from-left" src="./imegies/team7.jpg" alt="A picture of Team 7 in the chunin exams">
                 </div>
-                <h2>Altro blocco</h2>
+                <h2 id="blocco3">kenpachi</h2>
 
-                <p>Se vuoi puoi scrivere altro testo
+                <p>
+                    Alto e dal fisico asciutto e imponente,
+                     Kenpachi ha la parte sinistra del volto solcata da una cicatrice lunga e sottile; cicatrici simili sono presenti su entrambi i pettorali.
+                      Porta i lunghi capelli raccolti in numerose trecce con dei campanelli mentre la sua espressione, specie nel caso in cui incontri un avversario capace di farlo divertire,
+                       è caratterizzata da un sinistro sorriso dal quale si intravedono i canini molto pronunciati. Inizialmente porta una benda che gli copre l'occhio destro e che gli avvolge anche il collo,
+                        mentre dopo la battaglia di Karakura indossa una nuova benda senza fili e i suoi capelli sono più lunghi e senza le campanelle.
                 </p>
                 <div>
-                <img id="acceptance" src="" alt="non funziona">
+                <img class="from-left" id="acceptance" src="./imegies/yii0mkdqzhw71.jpg" alt="non funziona">
                 </div>
             </section>
         </main>
         <!-- ecco il footer -->
         <footer>
 
-        <h3> ✬ Se vuoi puoi inserire uno o più link:
-            ✬ <a id="tribute-link" href="link-pagina" target="_blank">Testo Link ✬</a>
+        <h3> ✬ se voi sapere di più su
+            <a id="tribute-link" href="https://it.wikipedia.org/wiki/Bleach_(manga)" target="_blank">bleach</a>
+            ✬
         </h3>
         </footer>
         <script src="js/gsap.min.js"></script>

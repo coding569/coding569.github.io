@@ -1,12 +1,12 @@
 html {
-  font-family: "Amarante";
+  font-family: "Permanent marker";
   font-size: 40px;
   text-align: justify;
   scroll-behavior: smooth;
 }
 
 body {
-    background-color: #cccccc;
+    background-color: #d7c8a7;
     overflow-x: hidden;
   }
 
@@ -14,30 +14,41 @@ body {
   text-align: center;
 }
 
+.stagioni-img{
+  size: 12px;
+}
+
 #image {
   width:730px;
   height:auto;
 }
 
-
-#menu ul, #menu li {
-  list-style-type: none;
+.img-trasf{
+  align-self: center;
 }
 
+#menu ul, #menu li {
+ e: non list-style-type;
+}
 
+ul {
+  background-color: rgba(192, 212, 149, 0.800);
+  padding-left: 1rem;
+   border-radius: 50px
+}
 
 h1 {
   text-align: center;
   font-size: clamp(80px, 5vw, 15px);
   border: 5px solid;
-  background-color: rgb(248, 128, 0);
-  border-radius: 50px;
+  background-color: rgb(192, 212, 149);
+  border-radius: 50px 50px 20px 20px;
 }
 
 #desc {
   border: 3px solid;
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(135, 209, 159);
 }
 #image {
   max-width: 100%;
@@ -49,31 +60,22 @@ h1 {
 }
 #img-caption {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(132, 134, 119);
 }
 
 h2 {
   text-align: center;
   text-justify: auto;
-  background-color: rgb(248, 128, 0);
-  border-radius: 30px;
-  border: 5px solid;
+  background-color: rgb(190, 161, 143);
 }
 
 p {
-  background-color: rgb(248, 128, 0);
-  text-align: center;
-  border: 3px solid;
-}
-
-ul {
-  background-color: rgb(248, 128, 0);
-  padding-left: 2rem;
-}
-
-ol {
+  background-color: rgb(151, 80, 59);
   text-align: center;
 }
+
+
+
 
 #rejected {
   max-width: 100%;
@@ -86,8 +88,9 @@ ol {
 
 figcaption {
   text-align: center;
-  background: rgb(248, 128, 0);
+  background: rgb(151, 80, 59);
 }
+
 
 #Team7 {
   max-width: 100%;
@@ -109,10 +112,9 @@ figcaption {
 
 h3 {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: pink;
 }
 
-.red {
-  color: red;
+img{
+  width: 100%;
 }
-

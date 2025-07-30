@@ -1,12 +1,12 @@
 html {
-  font-family: "Amarante";
+  font-family: "Permanent marker";
   font-size: 40px;
   text-align: justify;
   scroll-behavior: smooth;
 }
 
 body {
-    background-color: #cccccc;
+    background-color: #1f1d1d;
     overflow-x: hidden;
   }
 
@@ -24,20 +24,28 @@ body {
   list-style-type: none;
 }
 
+.red {
+  color:rgb(101, 99, 118);
+}
 
-
+* {
+  color:rgb(160, 172, 183);
+}
+h1,h2,h3{
+  color: rgb(24, 20, 27);
+}
 h1 {
   text-align: center;
   font-size: clamp(80px, 5vw, 15px);
   border: 5px solid;
-  background-color: rgb(248, 128, 0);
-  border-radius: 50px;
+  background-color: rgb(55, 54, 66);
+  border-radius: 50px 50px  0 0;
 }
 
 #desc {
   border: 3px solid;
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(55, 54, 66);
 }
 #image {
   max-width: 100%;
@@ -49,31 +57,25 @@ h1 {
 }
 #img-caption {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(55, 54, 66);
 }
 
 h2 {
   text-align: center;
   text-justify: auto;
-  background-color: rgb(248, 128, 0);
-  border-radius: 30px;
-  border: 5px solid;
+  background-color: rgb(55, 54, 66);
 }
 
 p {
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(55, 54, 66);
   text-align: center;
-  border: 3px solid;
 }
 
 ul {
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(55, 54, 66);
   padding-left: 2rem;
 }
 
-ol {
-  text-align: center;
-}
 
 #rejected {
   max-width: 100%;
@@ -86,7 +88,7 @@ ol {
 
 figcaption {
   text-align: center;
-  background: rgb(248, 128, 0);
+  background: rgb(55, 54, 66);
 }
 
 #Team7 {
@@ -109,10 +111,5 @@ figcaption {
 
 h3 {
   text-align: center;
-  background-color: rgb(248, 128, 0);
+  background-color: rgb(55, 54, 66);
 }
-
-.red {
-  color: red;
-}
-

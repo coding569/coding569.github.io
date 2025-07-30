@@ -11,28 +11,28 @@ gsap.utils.toArray(".from-left").forEach(elem => {
     
     // Entrando (scroll in giù)
     onEnter: () => gsap.to(elem, {
-      x: -200,
+      x: 0,
       duration: 0.8,
       ease: "power2.out"
     }),
     
     // Uscendo (scroll in giù)
     onLeave: () => gsap.to(elem, {
-      x: 0,
+      x: -200,
       duration: 0.8,
       ease: "power2.in"
     }),
     
     // Entrando da sotto (scroll in su)
     onEnterBack: () => gsap.to(elem, {
-      x: -200,
+      x: 0,
       duration: 0.8,
       ease: "power2.out"
     }),
     
     // Uscendo verso l’alto
     onLeaveBack: () => gsap.to(elem, {
-      x: 0,
+      x: -200,
       duration: 0.8,
       ease: "power2.in"
     })
@@ -48,22 +48,22 @@ gsap.utils.toArray(".from-right").forEach(elem => {
     end: "bottom top",
     
     onEnter: () => gsap.to(elem, {
-      x: 200,
+      x: 0,
       duration: 0.8,
       ease: "power2.out"
     }),
     onLeave: () => gsap.to(elem, {
-      x: 0,
+      x: 200,
       duration: 0.8,
       ease: "power2.in"
     }),
     onEnterBack: () => gsap.to(elem, {
-      x: 200,
+      x: 0,
       duration: 0.8,
       ease: "power2.out"
     }),
     onLeaveBack: () => gsap.to(elem, {
-      x: 0,
+      x: 200,
       duration: 0.8,
       ease: "power2.in"
     })
