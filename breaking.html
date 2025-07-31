@@ -7,11 +7,12 @@
 
     <!-- TAG head: metainformazioni + link al css -->
         <head>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pirata+One&display=swap" rel="stylesheet">
-            
-            <link rel="stylesheet" href="./breaking_style.css">
+           
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Miltonian+Tattoo&family=Six+Caps&display=swap" rel="stylesheet">
+
+           <link rel="stylesheet" href="./breaking_style.css">
             <link rel="stylesheet" href="./globa_style.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
@@ -31,15 +32,14 @@
             <!-- esempio menu -->
             <nav>
                 <ul id="menu" style="display:flex; gap: 50px;">
-                    <li> <a href="./index.html">Home</a> </li>
-                    <li> <a href="#blocco1">trama </a> </li>
-                    <li> <a href="#blocco2"> episodi </a></li>
-                    <li> <a href="#blocco3"> cast </a></li>
+                    <li> <a  style="color: rgb(134, 108, 1);" href="#tribute-info"> trama </a> </li>
+                    <li> <a style="color: rgb(134, 108, 1);" href="#blocco2"> episodi </a></li>
+                    <li> <a style="color: rgb(134, 108, 1);" href="#blocco3"> cast </a></li>
                 </ul>
             </nav>
             <!-- TAG h1 è il TITOLO PRINCIPALE: cambialo come preferisci -->
-            <h1 id="title">✬ ✬ ✬ Breaking Bad ✬ ✬ ✬</h1>
-            <p id="desc">una serie tv da scoprire</p>
+            <h1 class="testo-primo-col" id="title">✬ ✬ ✬ Breaking Bad ✬ ✬ ✬</h1>
+            <p class="testo-terzo-col" id="desc">una serie tv da scoprire</p>
                 <section id="img-div">
 
                     <!-- immagine -->
@@ -55,10 +55,10 @@
             <section id="tribute-info">
  
                 <article>
-                    <h2 class="from-right" id="blocco1">
+                    <h2 id="blocco1" class="from-right" class="testo-secondo-col" >
                     ✬ ✬ di cosa parla ✬ ✬
                     </h2>
-                    <p>
+                    <p id="desc">
                         tanto tempo fa c'era un semplice professore di chimica... poi tutto cambiò. 
                     </p>
                     <div>
@@ -67,29 +67,30 @@
                     </div>
 
                 </article>
-                <h2 id="blocco2">
+                <h2 id="blocco2" class="from-left" class="testo-secondo-col">
                 ✬ ✬ da quante stagioni è composta ✬ ✬
                 </h2>
-                <p>
+                <p id="desc">
                     ci sono 5 stagioni composte da 12/13 episodi l'una, dalla durata di 40 min circa
                 </p>
 
                 <!-- LISTA  -->
-                <ul>
+                <ul id=lista >
                     <li>S1 ep:12 </li>
                     <li>S2 ep:13</li>
                     <li>S3 ep:13</li>
                     <li>S4 ep:15</li>
-                    <li class="red">S5 ep:14 </li>
+                    <li>S5 ep:14 </li>
                 </ul>
 
-                <p>son tante ma ne vale la pena</p>
+                <p id="desc">son tante ma ne vale la pena</p>
                 <div>
                 <img id="stagioni-img" src="https://i.ebayimg.com/00/s/MTQ4NFgxNjAw/z/QOoAAOSw-1ZcXeRL/$_57.JPG?set_id=8800005007" alt="me ne son scordato">
                 </div>
                 <h2 class="from-left"  id="blocco3">Il Cast</h2>
 
-                <p> <a href="https://it.wikipedia.org/wiki/Breaking_Bad#Breaking_Bad:_Original_Minisodes">guarda i personaggi</a>
+                <p >
+                    <a style="color: rgba(246, 215, 94, 0.947);" href="https://it.wikipedia.org/wiki/Breaking_Bad#Breaking_Bad:_Original_Minisodes">guarda i personaggi</a>
                 </p>
                 <div>
                 <img id="acceptance" src="https://mr.comingsoon.it/imgdb/SerieTV/news/1/79631_ppl.jpg" alt="er cast">
@@ -99,8 +100,7 @@
         <!-- ecco il footer -->
         <footer>
 
-        <h3> ✬ Se vuoi puoi inserire uno o più link:
-            ✬ <a id="tribute-link" href="https://it.wikipedia.org/wiki/Breaking_Bad" target="_blank">Testo Link ✬</a>
+        <h3 class="testo-secondo-col"> ✬ Se vuoi approfondire:✬ <a style="color: rgb(21, 118, 192);" id="tribute-link" href="https://it.wikipedia.org/wiki/Breaking_Bad" target="_blank">BreakinBad ✬</a>
         </h3>
 
         </footer>

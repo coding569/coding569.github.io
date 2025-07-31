@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #d7c8a7;
+    background-color: #fde1a6;
     overflow-x: hidden;
   }
 
@@ -27,28 +27,36 @@ body {
   align-self: center;
 }
 
-#menu ul, #menu li {
- e: non list-style-type;
+.testo-primo-col {
+  color: rgb(77, 67, 0);
 }
 
+.testo-secondo-col {
+  color: rgb(0, 0, 0);
+}
+
+
+
+
 ul {
-  background-color: rgba(192, 212, 149, 0.800);
+  background-color: rgba(223, 244, 177, 0.8);
   padding-left: 1rem;
-   border-radius: 50px
+   border-radius: 50px;
+   
 }
 
 h1 {
   text-align: center;
   font-size: clamp(80px, 5vw, 15px);
   border: 5px solid;
-  background-color: rgb(192, 212, 149);
+  background-color: rgb(223, 244, 177);
   border-radius: 50px 50px 20px 20px;
 }
 
 #desc {
   border: 3px solid;
   text-align: center;
-  background-color: rgb(135, 209, 159);
+  background-color: rgba(225, 215, 144, 0.8);
 }
 #image {
   max-width: 100%;
@@ -75,7 +83,13 @@ p {
 }
 
 
-
+#lista li{
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(147, 149, 33);
+  text-align: center;
+  background-color: #ebeac0cc;
+}
 
 #rejected {
   max-width: 100%;
@@ -112,9 +126,16 @@ figcaption {
 
 h3 {
   text-align: center;
-  background-color: pink;
+  background-color: rgb(228, 192, 92);
 }
 
 img{
   width: 100%;
 }
+
+#menu li {
+  list-style: none!important;
+}
+
+*{
+  font-family: Barlow, sans-serif;}
